@@ -1,0 +1,657 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdftex 2014.7.16)  28 JUL 2014 00:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**the_open_access_academia_corpus_draft.tex
+(./the_open_access_academia_corpus_draft.tex
+! Undefined control sequence.
+l.1  \documentclass
+                   {sig-alternate}
+? 
+! Undefined control sequence.
+l.2 \usepackage
+               {hyperref}
+? 
+! Undefined control sequence.
+l.4 \begin
+          {document}
+? 
+! Undefined control sequence.
+l.7 \title
+          {The Open Access Academia Corpus}
+? 
+! Undefined control sequence.
+l.9 \numberofauthors
+                    {1}
+? 
+! Undefined control sequence.
+l.10 \author
+            {
+? 
+! Undefined control sequence.
+l.11 \alignauthor
+                 
+? 
+! Emergency stop.
+l.11 \alignauthor
+                 
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
+,SPQR)
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+\epsfxsize=\dimen104
+\epsfysize=\dimen105
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count80
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count81
+\leftroot@=\count82
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count83
+\DOTSCASE@=\count84
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count85
+\c@MaxMatrixCols=\count86
+\dotsspace@=\muskip10
+\c@parentequation=\count87
+\dspbrk@lvl=\count88
+\tag@help=\toks17
+\row@=\count89
+\column@=\count90
+\maxfields@=\count91
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+Document Class 'sig-alternate' <23rd. May '12>. Modified by G.K.M. Tobin/Gerry 
+Murray
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\footheight=\dimen115
+\@maxsep=\dimen116
+\@dblmaxsep=\dimen117
+\aucount=\count92
+\originalaucount=\count93
+\auwidth=\dimen118
+\auskip=\dimen119
+\auskipcount=\count94
+\auskip=\dimen120
+\allauboxes=\dimen121
+\addauthors=\toks21
+\addauflag=\count95
+\subtitletext=\toks22
+\savesection=\count96
+\sectioncntr=\count97
+\c@figure=\count98
+\c@table=\count99
+\titleboxnotes=\toks23
+\titleboxnoteflag=\count100
+Document Class: sig-alternate 2012/05/23 - V2.5 - based on acmproc.cls V1.3 <No
+v. 30 '99>
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count101
+\tntoks=\toks24
+\tntokstwo=\toks25
+\tntoksthree=\toks26
+\tntoksfour=\toks27
+\tntoksfive=\toks28
+\catcount=\count102
+\copyrightnotice=\toks29
+\conf=\toks30
+\confinfo=\toks31
+\c@part=\count103
+\c@section=\count104
+\c@subsection=\count105
+\c@subsubsection=\count106
+\c@paragraph=\count107
+
+Using 'Abbrev' bibliography style
+LaTeX Info: Redefining \cite on input line 1211.
+\bibindent=\dimen122
+\colcntr=\count108
+\saveb@x=\box29
+\copyrtyr=\toks32
+\acmcopyr=\toks33
+\boilerplate=\toks34
+\copyrightetc=\toks35
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2014basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen123
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count111
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count112
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen124
+\Fld@menulength=\count113
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count114
+\c@Hfootnote=\count115
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip44
+) (./the_open_access_academia_corpus_draft.aux
+! Text line contains an invalid character.
+l.19 ^^@
+        ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ^^@^^@
+           ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Emergency stop.
+l.19 ^^@^^@
+           ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5648 strings out of 494522
+ 79758 string characters out of 6167205
+ 160562 words of memory out of 5000000
+ 8891 multiletter control sequences out of 15000+600000
+ 32753 words of font info for 32 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 41i,0n,28p,3500b,80s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+ input line 4.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen127
+\scratchbox=\box30
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen128
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks37
+) (/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box31
+
+
+Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring OFF on input line 4.
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
+ (./the_open_access_academia_corpus_draft.out)
+(./the_open_access_academia_corpus_draft.out)
+\@outlinefile=\write3
+\openout3 = `the_open_access_academia_corpus_draft.out'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 19.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+aett on input line 32.
+
+(/usr/local/texlive/2014basic/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Overfull \hbox (8.71867pt too wide) in paragraph at lines 20--33
+\T1/aer/m/n/9 open ac-cess pub-li-ca-tion is hin-dered by frag-men-ta-tion of s
+ources
+ []
+
+
+Overfull \hbox (2.03859pt too wide) in paragraph at lines 39--40
+\T1/aer/m/n/9 A.2 [\T1/aer/bx/n/9 Reference (e.g., dic-tio-nar-ies, en-cy-clo-p
+e-dias, glos-
+ []
+
+
+Overfull \hbox (3.13762pt too wide) in paragraph at lines 74--87
+\T1/aer/m/n/9 Cen-tral Open Ac-cess (PMC OA) and ArXiv and on-line search
+ []
+
+
+Overfull \hbox (2.90459pt too wide) in paragraph at lines 103--109
+[]\T1/aer/m/n/9 OAAC is a stan-dard-ized and com-pu-ta-tion-ally cu-rated com-
+ []
+
+[1{/usr/local/texlive/2014basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Overfull \hbox (3.37251pt too wide) in paragraph at lines 117--121
+\T1/aer/m/n/9 open ac-cess aca-demic preprints (author-published) of physics,
+ []
+
+
+Overfull \hbox (2.86555pt too wide) in paragraph at lines 117--121
+\T1/aer/m/n/9 math-e-mat-ics, com-puter sci-ence, and other quan-ti-ta-tive fie
+lds.
+ []
+
+
+Overfull \hbox (1.45236pt too wide) in paragraph at lines 139--144
+\T1/aer/m/n/9 largest, free col-lec-tion of schol-arly jour-nals, which lists 2
+4,229
+ []
+
+<figures/DBWorkflow.png, id=184, 1402.23875pt x 289.08pt>
+File: figures/DBWorkflow.png Graphic file (type png)
+
+<use figures/DBWorkflow.png>
+Package pdftex.def Info: figures/DBWorkflow.png used on input line 149.
+(pdftex.def)             Requested size: 240.0pt x 49.47377pt.
+
+Overfull \hbox (6.29727pt too wide) in paragraph at lines 154--171
+\T1/aer/m/n/9 records) and the PubMed Cen-tral OA sub-set (774,993 records)
+ []
+
+
+Overfull \hbox (12.2079pt too wide) in paragraph at lines 154--171
+\T1/aer/m/n/9 TeX en-coded char-ac-ter se-quences to Uni-code, col-laps-ing whi
+tes-
+ []
+
+<figures/equiv_set.png, id=186, 610.28pt x 233.87375pt>
+File: figures/equiv_set.png Graphic file (type png)
+
+<use figures/equiv_set.png>
+Package pdftex.def Info: figures/equiv_set.png used on input line 176.
+(pdftex.def)             Requested size: 167.99927pt x 64.38148pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.220 
+       [2 <./figures/DBWorkflow.png> <./figures/equiv_set.png>]
+
+LaTeX Warning: Citation `scholar2014' on page \thepage  undefined on input line
+ 225.
+
+<figures/journals.pdf, id=202, 467.7475pt x 254.9525pt>
+File: figures/journals.pdf Graphic file (type pdf)
+
+<use figures/journals.pdf>
+Package pdftex.def Info: figures/journals.pdf used on input line 259.
+(pdftex.def)             Requested size: 240.0pt x 130.81766pt.
+
+<figures/publishers.pdf, id=203, 413.545pt x 249.93375pt>
+File: figures/publishers.pdf Graphic file (type pdf)
+
+<use figures/publishers.pdf>
+Package pdftex.def Info: figures/publishers.pdf used on input line 265.
+(pdftex.def)             Requested size: 240.0pt x 145.04938pt.
+
+<figures/language.pdf, id=206, 363.3575pt x 218.8175pt>
+File: figures/language.pdf Graphic file (type pdf)
+
+<use figures/language.pdf>
+Package pdftex.def Info: figures/language.pdf used on input line 291.
+(pdftex.def)             Requested size: 240.0pt x 144.53351pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.307 
+       [3 <./figures/journals.pdf> <./figures/publishers.pdf> <./figures/langua
+ge.pdf>]
+Overfull \hbox (4.56186pt too wide) in paragraph at lines 331--333
+[]\T1/aer/m/n/9 The full doc-u-men-ta-tion is avail-able at []$\T1/aett/m/n/9 h
+ttp : / / oaacademia .
+ []
+
+
+Overfull \hbox (2.64278pt too wide) in paragraph at lines 335--340
+\T1/aett/m/n/9 rest / get _ articles / 0 / 100$[]\T1/aer/m/n/9 , re-turns the f
+irst 100 ar-ti-cles from
+ []
+
+
+Overfull \hbox (8.52211pt too wide) in paragraph at lines 344--347
+[]\T1/aer/m/n/9 Example: []$\T1/aett/m/n/9 http : / / oaacademia . org / rest /
+ get _ article _ by _
+ []
+
+
+Overfull \hbox (1.51105pt too wide) in paragraph at lines 377--380
+\T1/aer/m/n/9 Award and by a grant from OCLC. Shashank Agar-wal helped
+ []
+
+(./the_open_access_academia_corpus_draft.bblpdfTeX warning (ext4): destination 
+with the same identifier (name{page.}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.84 
+      [4])
+Overfull \hbox (18.5958pt too wide) in paragraph at lines 399--399
+[]\secfnt DESCRIPTION OF RECORD AT-TRIBUTES 
+ []
+
+
+Overfull \hbox (4.99289pt too wide) in paragraph at lines 425--429
+\T1/aer/m/n/9 lished works by the In-ter-na-tional DOI Foun-da-tion (IDF).
+ []
+
+
+Overfull \hbox (15.64821pt too wide) in paragraph at lines 445--446
+[]\T1/aer/m/n/9 A dic-tio-nary of ref-er-ences to sup-ple-men-tary records
+ []
+
+
+Overfull \hbox (9.33723pt too wide) in paragraph at lines 477--478
+[][]$\T1/aett/m/n/9 http : / / open-[]academia . org / rest / get _ articles / 
+start /
+ []
+
+
+Overfull \hbox (37.6328pt too wide) in paragraph at lines ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Text line contains an invalid character.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+
+? 
+! Emergency stop.
+l.19 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 5648 strings out of 494522
+ 79758 string characters out of 6167205
+ 160562 words of memory out of 5000000
+ 8891 multiletter control sequences out of 15000+600000
+ 32753 words of font info for 32 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 41i,0n,28p,3500b,80s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+E97A11A8A9AD36A5DAD17;1962.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 527.
+ ) 
+Here is how much of TeX's memory you used:
+ 6445 strings out of 494522
+ 92099 string characters out of 6167205
+ 181002 words of memory out of 5000000
+ 9542 multiletter control sequences out of 15000+600000
+ 50414 words of font info for 68 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 41i,10n,29p,499b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
+cal/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
+/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></
+usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+</usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.p
+fb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+9.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt9.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/urw/helvetic/uhvb
+8a.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
+.pfb></usr/local/texlive/2014basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/local/texlive/2014basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on the_open_access_academia_corpus_draft.pdf (6 pages, 309499 by
+tes).
+PDF statistics:
+ 362 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+

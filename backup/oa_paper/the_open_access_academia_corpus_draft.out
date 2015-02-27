@@ -1,0 +1,31 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Sources}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Primary Sources}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Supplementary Sources}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Compilation}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Parse Source Record Format}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Merge Duplicates}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Select Best Attribute Version}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Filter Records}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Identifier Validation}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Corpus}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Corpus Statistics}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{English Language}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Standardized Random Samples}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.4}{Unmerged Parsed Records}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Web Service}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{Example usage}{section.5}% 17
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 18
+\BOOKMARK [1][-]{section.7}{Acknowledgments}{}% 19
+\BOOKMARK [1][-]{section.8}{References}{}% 20
+\BOOKMARK [1][-]{appendix.A}{Description of Record Attributes}{}% 21
+\BOOKMARK [2][-]{subsection.A.1}{Document}{appendix.A}% 22
+\BOOKMARK [2][-]{subsection.A.2}{Publication}{appendix.A}% 23
+\BOOKMARK [2][-]{subsection.A.3}{Meta}{appendix.A}% 24
+\BOOKMARK [1][-]{appendix.B}{Consuming the WebService}{}% 25
+\BOOKMARK [2][-]{subsection.B.1}{GET /get\137articles/}{appendix.B}% 26
+\BOOKMARK [2][-]{subsection.B.2}{GET /get\137article\137by\137alternate\137id/}{appendix.B}% 27
+\BOOKMARK [2][-]{subsection.B.3}{GET /get\137article\137by\137id}{appendix.B}% 28
+\BOOKMARK [2][-]{subsection.B.4}{GET /get\137authors}{appendix.B}% 29
+\BOOKMARK [2][-]{subsection.B.5}{GET /get\137journal}{appendix.B}% 30
+\BOOKMARK [2][-]{subsection.B.6}{GET /get\137tags}{appendix.B}% 31

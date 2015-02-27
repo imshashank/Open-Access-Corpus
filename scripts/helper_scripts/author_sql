@@ -1,0 +1,28 @@
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Jian-Pin Wu' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2001');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Hua-Bi Zeng' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2001');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'P. Ohberg' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2002');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'L. Santos' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2002');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'R. Dollan' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Ch Grah' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'E. Kuznetsova' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'W. Lange' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'W. Lohmann' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'A. Stahl' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'K. Afanaciev' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'V. Drugakov' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'I. Emeliantchik' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2003');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Maria Francis' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2004');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Ambedkar Dukkipati' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2004');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Brian K. Daines' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2005');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Douglas A. Dennis' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2005');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'M. A. Jafarizadeh' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2005');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'N. Fouladic' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2005');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'H. Sabric' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2005');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'B. Rashidian Malekic' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2005');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Balasubramanian Thiagarajan' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2007');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Geetha Ramamoorthy' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2007');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'D. Toussaint' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2008');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'W. Freeman' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2008');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Duje Bonacci' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2009');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'Donald C. Thomas' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2010');"]}
+{'queries': ["Select author_id from `corpus`.`authors` where author_name like 'David P. Hervieux' LIMIT 1;", "INSERT INTO `corpus`.`author_article` (`author_id`, `article_id`) VALUES ('None', '2010');"]}

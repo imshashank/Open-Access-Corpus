@@ -1,0 +1,27 @@
+2014-11-19 22:24:20.931+0000 INFO  [API] Setting startup timeout to: 120000ms based on -1
+2014-11-19 22:24:22.576+0000 INFO  [API] Successfully started database
+2014-11-19 22:24:22.672+0000 INFO  [API] Starting HTTP on port :7474 with 40 threads available
+2014-11-19 22:24:22.974+0000 INFO  [API] Enabling HTTPS on port :7473
+2014-11-19 22:24:22.974+0000 INFO  [API] No SSL certificate found, generating a self-signed certificate..
+2014-11-19 22:24:23.274+0000 INFO  [API] Mounted discovery module at [/]
+2014-11-19 22:24:23.282+0000 INFO  [API] Mounted REST API at [/db/data/]
+2014-11-19 22:24:23.285+0000 INFO  [API] Mounted management API at [/db/manage/]
+2014-11-19 22:24:23.285+0000 INFO  [API] Mounted webadmin at [/webadmin]
+2014-11-19 22:24:23.285+0000 INFO  [API] Mounted Neo4j Browser at [/browser]
+2014-11-19 22:24:23.378+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2014-11-19 22:24:23.446+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+17:24:23.448 [main] WARN  o.e.j.server.handler.ContextHandler - o.e.j.s.ServletContextHandler@4c98a6d5{/,null,null} contextPath ends with /
+17:24:23.448 [main] WARN  o.e.j.server.handler.ContextHandler - Empty contextPath
+17:24:23.450 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.0.5.v20130815
+17:24:23.478 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@383f1975{/,null,AVAILABLE}
+17:24:23.561 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+17:24:23.576 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@675ffd1d{/webadmin,jar:file:/Library/WebServer/Documents/oclc_project/graph_db/neo4j-community-2.1.5/system/lib/neo4j-server-2.1.5-static-web.jar!/webadmin-html,AVAILABLE}
+17:24:24.069 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4e93dcb9{/db/manage,null,AVAILABLE}
+17:24:24.268 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7942a854{/db/data,null,AVAILABLE}
+17:24:24.287 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+17:24:24.289 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@5fcfca62{/browser,jar:file:/Library/WebServer/Documents/oclc_project/graph_db/neo4j-community-2.1.5/system/lib/neo4j-browser-2.1.5.jar!/browser,AVAILABLE}
+17:24:24.372 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4c98a6d5{/,null,AVAILABLE}
+17:24:24.418 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@53ed09e8{HTTP/1.1}{localhost:7474}
+17:24:24.650 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5633ed82{SSL-HTTP/1.1}{localhost:7473}
+2014-11-19 22:24:24.651+0000 INFO  [API] Server started on: http://localhost:7474/
+2014-11-19 22:24:24.651+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]

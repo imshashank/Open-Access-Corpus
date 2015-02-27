@@ -1,0 +1,52 @@
+CREATE (n:Article { name:"Tom Hanks" });
+CREATE (n:Tags { name:"Tom Hanks" });
+
+
+
+[{"article_id":"1","alternate_id":"4HXV8HB24X42OYTN","title":"One-dimensional heat equation with discontinuous conductance","abstract":"We study a second-order parabolic equation with divergence form elliptic operator, having piecewise constant diffusion coefficients with two points of discontinuity. Such partial differential equations appear in the modelization of diffusion phenomena in medium consisting of three kind of materials. Using probabilistic methods, we present an explicit expression of the fundamental solution under certain conditions. We also derive small-time asymptotic expansion of the PDE's solutions in the general case. The obtained results are directly usable in applications.","url":"http:\/\/arxiv.org\/abs\/1312.7396","doi":"None","language":"[]","year":"2013","page":"0","is_published":"0","alts":"","author_ids":["1","2"],"authors":["Zhen-Qing Chen","Mounir Zili"],"journal":"None","tags":["Partial differential equations","Probability","Probability theory","stochastic processes","Analysis of Partial Differential Equations","-Zero-probability"],"publisher":"None"}]
+
+
+CREATE (n:Article {id:"1", name:"OAAC" });
+
+CREATE (n:Author {id:"1", name:"Shashank" });
+
+CREATE (n:Publisher { id:"1",name:"publisher1" });
+
+CREATE (n:Journal { id:"1",name:"journal1" });
+
+CREATE (n:Concept { id:"1",name:"concept1" });
+
+CREATE (n:Tag { id:"1",name:"tag1" });
+
+
+CREATE CONSTRAINT ON (article:Article) ASSERT article.id IS UNIQUE;
+CREATE CONSTRAINT ON (article:Article) ASSERT article.title IS UNIQUE;
+
+
+CREATE CONSTRAINT ON (author:Author) ASSERT author.id IS UNIQUE;
+CREATE CONSTRAINT ON (author:Author) ASSERT author.name IS UNIQUE;
+
+
+CREATE CONSTRAINT ON (publisher:Publisher) ASSERT publisher.id IS UNIQUE
+CREATE CONSTRAINT ON (publisher:Publisher) ASSERT publisher.name IS UNIQUE
+
+
+CREATE CONSTRAINT ON (journal:Journal) ASSERT journal.id IS UNIQUE
+CREATE CONSTRAINT ON (journal:Journal) ASSERT journal.name IS UNIQUE
+
+CREATE CONSTRAINT ON (concept:Concept) ASSERT concept.id IS UNIQUE
+CREATE CONSTRAINT ON (concept:Concept) ASSERT concept.name IS UNIQUE
+
+CREATE CONSTRAINT ON (tag:Tag) ASSERT tag.id IS UNIQUE
+CREATE CONSTRAINT ON (tag:Tag) ASSERT tag.name IS UNIQUE
+
+
+
+MATCH (article:Article)
+WHERE article.id = 1
+
+MATCH (publisher:Publisher)
+WHERE publisher.id = "1"
+CREATE (article)-[:PUBLISHED_IN]->(publisher)
+
+

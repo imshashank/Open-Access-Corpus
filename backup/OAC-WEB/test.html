@@ -1,0 +1,62 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#vote_up").click(function(){ 
+
+	var vote_r =  $(this).attr('value');
+	var article_id_r =  $(this).find(".article_id").attr('value');
+	var user_id_r = $(this).find(".user_id").attr('value');
+	event.preventDefault();
+                $.ajax({
+                        type: 'POST',
+                        url: 'user_vote.php',
+                        data: {article_id:article_id_r, user_id:user_id_r,vote:vote_r},
+                        dataType: 'json',
+                        success: function (data) {
+                                console.log(data);
+                                
+                        }
+                });
+
+});
+$("#vote_down").click(function(){ 
+	var vote_r =  $(this).attr('value');
+	var article_id_r =  $(this).find(".article_id").attr('value');
+	var user_id_r = $(this).find(".user_id").attr('value');
+	event.preventDefault();
+                $.ajax({
+                        type: 'POST',
+                        url: 'user_vote.php',
+                        data: {article_id:article_id_r, user_id:user_id_r,vote:vote_r},
+                        dataType: 'json',
+                        success: function (data) {
+                                console.log(data);
+                                
+                        }
+                });
+
+});
+});
+</script>
+</head>
+<body>
+	
+<div id="vote_up" value="up">Up
+<span class="article_id" value="10"></span>
+<span class="user_id" value="10"></span>
+</div>
+
+<div id="vote_down" value="down">Down
+<span class="article_id" value="10"></span>
+<span class="user_id" value="10"></span>
+</div>
+
+
+
+
+
+</body>
+</html>
