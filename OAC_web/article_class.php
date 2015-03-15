@@ -5,13 +5,29 @@ class Article_db {
 
     public function get_articles($start,$end){
         if(isset($start) && isset($end)){
-            $query = "SELECT * FROM articles LIMIT $start, $end";
+           $a="SELECT  t.*,t.article_id
+FROM    (";
+$query = "SELECT * FROM articles FORCE INDEX (PRIMARY) LIMIT $start, $end";
+
+	$b=") q
+JOIN    articles t 
+ON    t.article_id = q.article_id  ORDER BY  t.article_id";
+
+$query =$a.$query.$b;
           //  echo $query;
         }
         else
         {
 
-            $query = "SELECT * FROM articles LIMIT 20";
+           $a="SELECT  t.*,t.article_id
+FROM    (";
+$query = "SELECT * FROM articles FORCE INDEX (PRIMARY) LIMIT $start, 20";
+
+	$b=") q
+JOIN    articles t 
+ON    t.article_id = q.article_id  ORDER BY  t.article_id";
+
+$query =$a.$query.$b;
            // echo $query;
         }
 
