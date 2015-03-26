@@ -5,40 +5,41 @@ require 'vendor/autoload.php';
 $params = array();
 $params['hosts'] = array (
     'open-academia.org:9200'        // IP + Port
-  
+
 );
 
 $client = new Elasticsearch\Client($params);
 
 $indexParams['index']  = 'corpus_index';    //index
 
-$client->indices()->create($indexParams);
-/*
+//$client->indices()->create($indexParams);
+
 $param = array();
 
-$start= 76043;
+$start=1 ;
 
-for ($m = 0; $m < 10000; $m++){
-
-
-$start = $start+100;
-
-$data = json_decode(get_url("http://open-academia.org/rest/get_articles/".$start."/100"));
+for ($m = 0; $m < 2100000; $m++){
 
 
-foreach ($data as $article){
-	var_dump($article);
+$url ="http://api.open-academia.org/get_article_by_id/".$start;
+echo $url;
+//$article = json_decode(get_url("http://api.open-academia.org/get_article_by_id/".$start));
+$article = json_decode(get_url($url));
+
+$start = $start+1;
+
+//var_dump($article);
 
 $param['body']  = $article;
 $param['index'] = 'corpus_index';
 $param['type']  = 'article';
-#$param['id']    = 'my_id';
+$param['id']    = $article->article_id;
 
-// Document will be indexed to my_index/my_type/my_id
+var_dump($param['id']);
+// Document will be indexed to my_index/my_type/ey_id
+//break;
+//$ret = $client->index($param);
 
-$ret = $client->index($param);
-
-}
 
 }
 /*
@@ -67,21 +68,21 @@ $searchParams['index'] = 'corpus_index';
 
 */
 function get_url($url){
-	        // create curl resource 
-        $ch = curl_init(); 
+	        // create curl resource
+        $ch = curl_init();
 
-        // set url 
-        curl_setopt($ch, CURLOPT_URL, $url); 
+        // set url
+        curl_setopt($ch, CURLOPT_URL, $url);
 
-        //return the transfer as a string 
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+        //return the transfer as a string
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-        // $output contains the output string 
-        $output = curl_exec($ch); 
+        // $output contains the output string
+        $output = curl_exec($ch);
 
-        // close curl resource to free up system resources 
-        curl_close($ch); 
-        return $output;     
+        // close curl resource to free up system resources
+        curl_close($ch);
+        return $output;
 
 }
 ?>
