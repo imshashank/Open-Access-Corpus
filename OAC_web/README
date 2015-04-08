@@ -1,4 +1,10 @@
-Open Access Articles & Jorunals Corpus Frontend
+#Open Access Articles & Jorunals Corpus Frontend
+
+
+This is the new front-end for the Open-Academia.org console.
+
+The main files needed to be changed are in the "model" and "includes" database.
+
 
 By
 Shashank Agarwal
